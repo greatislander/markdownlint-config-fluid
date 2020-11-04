@@ -41,11 +41,11 @@ JSON configuration into Grunt as follows:
 
 ```js
 grunt.initConfig({
-  markdownlint: {
-    options: {
-      config: grunt.file.readJSON("./node_modules/markdownlint-config-fluid/.markdownlintrc.json")
+    markdownlint: {
+        options: {
+            config: grunt.file.readJSON("./node_modules/markdownlint-config-fluid/.markdownlintrc.json")
+        }
     }
-  }
 });
 ```
 
