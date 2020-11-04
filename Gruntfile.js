@@ -20,7 +20,7 @@ module.exports = function (grunt) {
             sources: {
                 json: [".commitlintrc.json", ".eslintrc.json", ".markdownlintrc.json", "package.json"],
                 js: ["*.js", "./tests/*.test.js"],
-                md: ["*.md", "!./tests/**/*.md"]
+                md: ["*.md", "!CHANGELOG.md", "!./tests/**/*.md"]
             }
         }
     });
