@@ -9,7 +9,10 @@ https://github.com/fluid-project/markdownlint-config-fluid/raw/main/LICENSE.md.
 
 "use strict";
 
+var fluid = require("infusion");
 var path = require("path");
 var configPath = path.join(__dirname, ".markdownlintrc.json");
+
+fluid.module.register("markdownlint-config-fluid", __dirname, require);
 
 module.exports = require(configPath);
