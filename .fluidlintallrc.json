@@ -1,0 +1,15 @@
+{
+    "lintspaces": {
+        "newlines": {
+            "excludes": [
+                "./tests/fixtures/bad.md"
+            ]
+        }
+    },
+    "markdownlint": {
+        "excludes": [
+            "./tests/fixtures/bad.md",
+            "./CHANGELOG.md"
+        ]
+    }
+}
