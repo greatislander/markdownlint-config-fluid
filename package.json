@@ -29,7 +29,7 @@
         }
     },
     "dependencies": {
-        "infusion": "3.0.0",
+        "infusion": "4.0.0-dev.20211216T180403Z.d5f6173fc.FLUID-6703",
         "markdownlint": "0.25.1"
     },
     "devDependencies": {
