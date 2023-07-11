@@ -30,7 +30,7 @@
     },
     "dependencies": {
         "infusion": "3.0.0-dev.20210312T233557Z.0b016a6dc.FLUID-6580",
-        "markdownlint": "0.21.1"
+        "markdownlint": "0.29.0"
     },
     "devDependencies": {
         "@commitlint/cli": "17.6.6",
