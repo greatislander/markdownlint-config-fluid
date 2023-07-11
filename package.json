@@ -38,7 +38,7 @@
         "ava": "5.3.1",
         "eslint-config-fluid": "^2.0.0",
         "fluid-lint-all": "1.2.9",
-        "husky": "4.3.8",
+        "husky": "6.0.0",
         "standard-version": "9.5.0"
     }
 }
