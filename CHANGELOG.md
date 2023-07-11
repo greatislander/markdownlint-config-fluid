@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/fluid-project/markdownlint-config-fluid/compare/0.1.4...0.1.5) (2023-07-11)
+
 ### [0.1.4](https://github.com/fluid-project/markdownlint-config-fluid/compare/0.1.3...0.1.4) (2021-05-04)
 
 ### [0.1.3](https://github.com/fluid-project/markdownlint-config-fluid/compare/0.1.2...0.1.3) (2021-04-20)

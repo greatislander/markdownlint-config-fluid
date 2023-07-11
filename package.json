@@ -1,12 +1,13 @@
 {
     "name": "markdownlint-config-fluid",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Shareable MarkdownLint config for the fluid project.",
     "main": "index.js",
     "scripts": {
         "lint": "fluid-lint-all",
         "release": "standard-version -t ''",
-        "test": "ava"
+        "test": "ava",
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
@@ -23,11 +24,6 @@
         "url": "https://github.com/fluid-project/markdownlint-config-fluid/issues"
     },
     "homepage": "https://github.com/fluid-project/markdownlint-config-fluid#readme",
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-        }
-    },
     "dependencies": {
         "infusion": "4.6.0",
         "markdownlint": "0.29.0"
@@ -38,7 +34,7 @@
         "ava": "5.3.1",
         "eslint-config-fluid": "^2.0.0",
         "fluid-lint-all": "1.2.9",
-        "husky": "4.3.8",
+        "husky": "8.0.3",
         "standard-version": "9.5.0"
     }
 }
