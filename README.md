@@ -93,18 +93,15 @@ npm install
 
 ### Releasing
 
-This module uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), enforced with
-[commitlint](https://commitlint.js.org/). This facilitates releasing new versions of the module. To cut a release, run:
-
-```bash
-npm run release
-```
+This package uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), enforced with
+[commitlint](https://commitlint.js.org/). This facilitates releasing new versions of the package via [Release Please](https://github.com/googleapis/release-please).
+To cut a release, merge the current [release pull request](https://github.com/google-github-actions/release-please-action#whats-a-release-pr).
 
 This will tag an appropriate [semantic version](https://semver.org) based on the nature of the recent commits to the
 project and update [the changelog](CHANGELOG.md).
 
 You will then need to publish the updated version to the [npm registry](http://npmjs.com). This requires an npm account
-with appropriate maintainer permissions. To publish the module, run:
+with appropriate maintainer permissions. To publish the package, run:
 
 ```bash
 npm publish
