@@ -29,7 +29,7 @@
     },
     "devDependencies": {
         "@commitlint/cli": "17.7.1",
-        "@commitlint/config-conventional": "17.7.0",
+        "@commitlint/config-conventional": "18.4.3",
         "ava": "5.3.1",
         "eslint-config-fluid": "^2.0.0",
         "fluid-lint-all": "1.2.9",
