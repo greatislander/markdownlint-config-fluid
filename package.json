@@ -25,7 +25,7 @@
     "homepage": "https://github.com/fluid-project/markdownlint-config-fluid#readme",
     "dependencies": {
         "infusion": "4.7.1",
-        "markdownlint": "0.35.0"
+        "markdownlint": "0.36.1"
     },
     "devDependencies": {
         "@commitlint/cli": "19.5.0",
