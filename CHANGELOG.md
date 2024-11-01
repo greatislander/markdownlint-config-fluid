@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.7](https://github.com/fluid-project/markdownlint-config-fluid/compare/v0.1.6...v0.1.7) (2024-11-01)
+
+
+### Bug Fixes
+
+* add npm ignore ([#82](https://github.com/fluid-project/markdownlint-config-fluid/issues/82)) ([84d3e1e](https://github.com/fluid-project/markdownlint-config-fluid/commit/84d3e1e0c977e78329c9bd1db1619f8ce0039903))
+
 ## [0.1.6](https://github.com/fluid-project/markdownlint-config-fluid/compare/0.1.5...v0.1.6) (2024-11-01)
 
 
