@@ -10,7 +10,7 @@ on:
 
 jobs:
   lint:
-    name: Lint and test
+    name: Lint and test - Node ${{ matrix.node }}
     runs-on: ubuntu-latest
     matrix:
       node: [20, 22]
