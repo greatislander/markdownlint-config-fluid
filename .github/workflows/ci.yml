@@ -12,17 +12,15 @@ jobs:
   lint:
     name: Lint and test
     runs-on: ubuntu-latest
+    matrix:
+      node: [20, 22]
     steps:
     - uses: actions/checkout@v4
-    - name: Cache node modules
-      uses: actions/cache@v4
+    - uses: actions/setup-node@v4
       with:
-        path: node_modules
-        key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
+        node-version: ${{ matrix.node }}
     - name: Install dependencies
-      run: npm i
-      env:
-        CI: true
+      run: npm ci
     - name: Lint files
       run: npm run lint
     - name: Run tests
