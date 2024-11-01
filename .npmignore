@@ -4,7 +4,6 @@ tests
 .commitlintrc.json
 .eslintrc.json
 .fluidlintallrc.json
-.markdownlintrc.json
 .release-please-manifest.json
 release-please-config.json
 renovate.json
