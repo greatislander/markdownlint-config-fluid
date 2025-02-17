@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.9](https://github.com/fluid-project/markdownlint-config-fluid/compare/v0.1.8...v0.1.9) (2025-02-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency infusion to v4.8.0 ([#101](https://github.com/fluid-project/markdownlint-config-fluid/issues/101)) ([66cd829](https://github.com/fluid-project/markdownlint-config-fluid/commit/66cd8291c553739a07fb511a8e6a05ad9cf46724))
+
 ## [0.1.8](https://github.com/fluid-project/markdownlint-config-fluid/compare/v0.1.7...v0.1.8) (2024-11-01)
 
 
